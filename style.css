@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+   float:left;
+}
+
+controls {
+  display: block;
+  float:right;
+}
+
+container {
+  display: block;
+  float:left;
+}
