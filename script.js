@@ -384,7 +384,7 @@ function makeGraph(){
      
       line(graphX-300+i, graphY, graphX-300+i,graphY+sign*graphVals[i])
     }
-    if (detectorX > graphX-300 && mouseX <  graphX+300 && detectorX > graphY-3 && mouseY < graphY+3){
+     if (detectorX > graphX-300 && detectorX <  graphX+300 && detectorX > graphY-3 && detectorY < graphY+3){
 
        strokeWeight(2);
        stroke(0,0,250,200);
